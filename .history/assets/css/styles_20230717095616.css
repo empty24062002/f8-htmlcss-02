@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --font-heading: Sen, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* Common */
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(1170px - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Header */
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 36px 0 8px;
+}

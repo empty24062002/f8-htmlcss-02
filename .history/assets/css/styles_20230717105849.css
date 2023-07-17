@@ -45,12 +45,6 @@ a {
     background: #fffcf4;
 }
 
-.header .fixed {
-    position: sticky;
-    top: -28px;
-    z-index: 1;
-}
-
 .header .body {
     display: flex;
     align-items: center;
@@ -90,6 +84,6 @@ a {
     background: #171100;
 }
 
-.header .sign-up-btn {
+.nav .sign-up-btn {
     min-width: 144px;
 }
